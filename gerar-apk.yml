@@ -8,6 +8,7 @@ on:
 jobs:
   build-apk:
     runs-on: ubuntu-latest
+
     steps:
       - name: Baixar projeto
         uses: actions/checkout@v4
